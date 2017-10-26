@@ -1,0 +1,34 @@
+{
+  "name": "node-minecraft-server-manager",
+  "version": "1.0.0",
+  "description": "A simple Node.js based Minecraft CLI manager",
+  "main": "mc.js",
+  "scripts": {
+    "minecraft-manager": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeneralApathy/nmsm.git"
+  },
+  "keywords": [
+    "Minecraft",
+    "NodeJS",
+    "Node.js",
+    "CLI",
+    "Manager"
+  ],
+  "author": "Emiliano Maccaferri",
+  "license": "GPL-3.0",
+  "preferGlobal": true,
+  "bin": {
+    "minecraft-manager": "mc.js"
+  },
+  "bugs": {
+    "url": "https://github.com/GeneralApathy/nmsm/issues"
+  },
+  "homepage": "https://github.com/GeneralApathy/nmsm#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "promise": "^8.0.1"
+  }
+}
