@@ -26,6 +26,16 @@ var consolemode = false;
 var current;
 var currentServer;
 
+fs.stat('./servers', function(err, stats) {
+    if (err) {
+      fs.mkdir('./servers', (err) => {
+
+				console.log("Ok, initialized")
+
+			})
+		}
+  });
+
 console.log("Welcome to Node Minecraft Server Manager".yellow);
 console.log("Type 'create <server-name>' to create a new server".cyan);
 
