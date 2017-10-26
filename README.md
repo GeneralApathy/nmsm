@@ -21,4 +21,5 @@ npm link
 
 # Executing
 **REMEMBER**: `minecraft-manager` command must be executed in the script directory
+
 `minecraft-manager`
